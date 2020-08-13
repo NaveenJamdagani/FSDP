@@ -4,7 +4,7 @@ const port = 3000;
 
 
 app.get('/', (req,res) => {
-	res.send('Hello Naveen!')
+	res.send('Hello Naveen and Ankush!')
 });
 
 app.listen(port, () => console.log(`App running on port ${port}`));
